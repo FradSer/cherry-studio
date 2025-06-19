@@ -59,6 +59,8 @@ import ChatGPTImageModelLogo from '@renderer/assets/images/models/gpt_image_1.pn
 import ChatGPTo1ModelLogo from '@renderer/assets/images/models/gpt_o1.png'
 import GrokModelLogo from '@renderer/assets/images/models/grok.png'
 import GrokModelLogoDark from '@renderer/assets/images/models/grok_dark.png'
+import GroqModelLogo from '@renderer/assets/images/models/groq.png'
+import GroqModelLogoDark from '@renderer/assets/images/models/groq_dark.png'
 import GrypheModelLogo from '@renderer/assets/images/models/gryphe.png'
 import GrypheModelLogoDark from '@renderer/assets/images/models/gryphe_dark.png'
 import HailuoModelLogo from '@renderer/assets/images/models/hailuo.png'
@@ -344,6 +346,7 @@ export function getModelLogo(modelId: string) {
     flashaudio: isLight ? FlashaudioModelLogo : FlashaudioModelLogoDark,
     flux: isLight ? FluxModelLogo : FluxModelLogoDark,
     grok: isLight ? GrokModelLogo : GrokModelLogoDark,
+    'groq|compound-beta': isLight ? GroqModelLogo : GroqModelLogoDark,
     hunyuan: isLight ? HunyuanModelLogo : HunyuanModelLogoDark,
     internlm: isLight ? InternlmModelLogo : InternlmModelLogoDark,
     internvl: InternvlModelLogo,
